@@ -29,7 +29,7 @@
     "jest": "24.9.0",
     "jest-cli": "24.9.0",
     "puppeteer": "2.1.1",
-    "stencil-storage-store": "latest"
+    "stencil-store-storage": "latest"
   },
   "license": "MIT"
 }

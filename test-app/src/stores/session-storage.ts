@@ -1,6 +1,6 @@
-import { crreateSessionStore } from "stencil-storage-store";
+import { crreateSessionStore } from 'stencil-store-storage';
 
-export const local = crreateSessionStore("session-key", {
-  aString: "some-string",
-  aNumber: 3.14
+export const local = crreateSessionStore('session-key', {
+  aString: 'some-string',
+  aNumber: 3.14,
 });

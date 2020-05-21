@@ -1,9 +1,9 @@
-import { Component, h } from "@stencil/core";
-import { local } from "../../stores/local-storage";
+import { Component, h } from '@stencil/core';
+import { local } from '../../stores/local-storage';
 
 @Component({
-  tag: "local-store",
-  shadow: true
+  tag: 'local-store',
+  shadow: false,
 })
 export class MyComponent {
   render() {
