@@ -1,3 +1,3 @@
-# Stencil I18n Store
+# Stencil Storage Store
 
 TBD once I get something really usable.
