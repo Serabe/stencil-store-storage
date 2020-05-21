@@ -1,1 +1,1 @@
-export type MinimumStorage = Pick<Storage, "getItem" | "setItem">;
+export type MinimumStorage = Pick<Storage, 'getItem' | 'setItem'>;

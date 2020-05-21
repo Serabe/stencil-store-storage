@@ -1,5 +1,1 @@
-export {
-  createLocalStore,
-  createSessionStore,
-  createStorageStore,
-} from "./stores/storage";
+export { createLocalStore, createSessionStore, createStorageStore } from './stores/storage';
