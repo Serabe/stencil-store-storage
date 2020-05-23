@@ -54,7 +54,10 @@ export const createStorageStore = <T extends object>(
   return store;
 };
 
-export const createLocalStore = <T extends object>(key: string, defaultValues: T) =>
-  createStorageStore(localStorage, key, defaultValues);
+export const createLocalStore = <T extends object>(
+  key: string,
+  defaultValues: T,
+  syncAcrossTabs = false
+) => createStorageStore(localStorage, key, defaultValues, syncAcrossTabs);
 export const createSessionStore = <T extends object>(key: string, defaultValues: T) =>
   createStorageStore(sessionStorage, key, defaultValues);
